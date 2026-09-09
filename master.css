@@ -1,0 +1,52 @@
+.title {
+    background-color: aquamarine;
+    text-align: center;
+}
+.links {
+
+    
+    background-color: antiquewhite;
+    text-align: center;
+}
+.links li {
+ display: inline-block;
+ margin: 50px;
+}
+.clear {
+    clear: both;
+}
+.items {
+    background-color: aliceblue;
+}
+.items article {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.items article img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    border: 3px solid red;
+    vertical-align: top;
+}
+.clea {
+    clear: both;
+}
+.photo img {
+    width: 800px;
+    height: 500px;
+    background-position: center;
+}
+.photo {
+    text-align: center;
+}
+figcaption {
+    text-align: center;
+}
+.welcome{
+    text-align: center;
+}
+.this {
+    text-align: center;
+}
