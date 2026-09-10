@@ -1,16 +1,27 @@
 .title {
     background-color: aquamarine;
     text-align: center;
+    border-radius: 10px;
 }
 .links {
 
     
     background-color: antiquewhite;
     text-align: center;
+    border-radius: 20px;
+ 
+    
 }
+
 .links li {
  display: inline-block;
- margin: 50px;
+ margin: 65px;
+ 
+}
+.links li a {
+    font-style: italic;
+    font-size: large;
+    text-decoration: none;
 }
 .clear {
     clear: both;
