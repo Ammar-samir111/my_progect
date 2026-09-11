@@ -1,12 +1,12 @@
 .title {
-    background-color: aquamarine;
+    background-color: rgb(250, 253, 252);
     text-align: center;
     border-radius: 10px;
 }
 .links {
 
     
-    background-color: rgba(189, 175, 158, 0.532);
+    background-color: rgba(133, 75, 4, 0.532);
     text-align: center;
     border-radius: 20px;
      
@@ -22,7 +22,7 @@
     font-style: italic;
     font-size: large;
     text-decoration: none;
-    color: rgb(126, 63, 0);
+    color: rgb(255, 253, 250);
 }
 .clear {
     clear: both;
@@ -42,7 +42,7 @@
     border: 3px solid red;
     vertical-align: top;
 }
-.clea {
+.clearr {
     clear: both;
 }
 .photo img {
@@ -63,7 +63,7 @@ figcaption {
     text-align: center;
 }
  
-.ammar{
+ .Explore {
     color:white ;
     background-color: rgb(112, 113, 112);
     position: fixed ;
@@ -71,7 +71,8 @@ figcaption {
     height: 30PX;
     padding: 5px;
     right: 0;
-    bottom: 0;
+     
+    top: 50%;
     text-align: center;
 }
 table {
@@ -101,3 +102,26 @@ figcaption {
     font-size: large;
 }
  
+body {
+     background-color: rgb(202, 196, 196);
+
+}
+label[for = "message"]{
+    display: block;
+}
+label[for = "name"]{
+    display: block;
+}
+  .fav {
+    width: 100%;
+    
+     display: flex;
+     justify-content: space-around;
+     
+  }
+  span {
+    background-color: #eee;
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-weight: bold;
+}
